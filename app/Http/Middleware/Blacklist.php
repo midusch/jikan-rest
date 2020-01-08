@@ -38,7 +38,7 @@ class Blacklist
             file_put_contents(BLACKLIST_PATH, json_encode([]));
         }
 
-        self::reloadList();
+        //self::reloadList();
     }
 
     public static function reloadList()
